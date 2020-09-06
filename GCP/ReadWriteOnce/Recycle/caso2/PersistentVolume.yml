@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: pv-timer
+  namespace: volumes-lab
+  labels:
+    group: grp-timer
+spec:
+  persistentVolumeReclaimPolicy: Recycle
+  storageClassName: standard
+  accessModes:
+    - ReadWriteOnce
+  capacity:
+    storage: 10Gi
+  gcePersistentDisk:
+    pdName: dsk-timer
+    fsType: ext4

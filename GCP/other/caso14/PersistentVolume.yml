@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: pv-timer
+  namespace: volumes-lab
+spec:
+  persistentVolumeReclaimPolicy: Retain
+  storageClassName: standard
+  accessModes:
+    - ReadWriteOnce
+  capacity:
+    storage: 10Gi
+  gcePersistentDisk:
+    pdName: dsk-timer
+    fsType: ext4

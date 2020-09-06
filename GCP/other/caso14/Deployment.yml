@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: dm-timer
+  namespace: volumes-lab
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      name: pd-timer
+  template:
+    metadata:
+      labels:
+        name: pd-timer
+    spec:
+      containers:
+      - name: "ctn-timer"
+        image: "nginx"
+        volumeMounts:
+          - mountPath: /timer/
+            name: vol-timer
+      volumes:
+        - name: vol-timer
+          persistentVolumeClaim:
+            claimName: pvc-timer
