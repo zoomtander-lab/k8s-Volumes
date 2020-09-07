@@ -1,4 +1,4 @@
-# Laboratorio de Volumenes en Kubernetes (K8s)
+# ![Laboratirio](https://raw.githubusercontent.com/zoomtander-lab/k8s-Volumes/master/assets/lab.png) Laboratorio de Volumenes en K8s
 
 Laboratorio para realizar pruebas de concepto sobre los volumenes en Kubernetes. En este proyecto se estudiará la mejor alternativa para un Storage en K8s según su rendimiento, escalabilidad y mantenibilidad.
 
@@ -115,6 +115,10 @@ Si quieres aportar al proyecto sólo tienes que seguir la guía de contribución
 El código de conducta establece las normas sociales, reglas y responsabilidades que los individuos y organizaciones deben seguir al interactuar de alguna manera con la herramienta digital o su comunidad. Es una buena práctica para crear un ambiente de respeto e inclusión en las contribuciones al proyecto.
 
 Si quieres aportar al proyecto, te invitamos a revisar el archivo [CODE_OF_CONDUCT.md](https://github.com/zoomtander-lab/k8s-Volumes/blob/master/CODE_OF_CONDUCT.md)
+
+## Agradecimientos y menciones
+
+El ícono de laboratorio simbolico de nuestra organización es creación de [Freepik](https://www.flaticon.es/autores/freepik) ([www.flaticon.es](https://www.flaticon.es/))
 
 ## Autores
 
