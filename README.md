@@ -1,4 +1,4 @@
-# ![Laboratirio](https://raw.githubusercontent.com/zoomtander-lab/k8s-Volumes/master/assets/lab.png) Laboratorio de Volumenes en K8s
+# ![Laboratirio](https://raw.githubusercontent.com/zoomtander-lab/k8s-Volumes/master/assets/lab.png) Laboratorio de Volumenes en K8s [Kubernetes](https://raw.githubusercontent.com/zoomtander-lab/k8s-Volumes/master/assets/k8s.png)
 
 Laboratorio para realizar pruebas de concepto sobre los volumenes en Kubernetes. En este proyecto se estudiará la mejor alternativa para un Storage en K8s según su rendimiento, escalabilidad y mantenibilidad.
 
