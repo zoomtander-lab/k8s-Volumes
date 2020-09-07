@@ -4,7 +4,7 @@ Probaremos el comportamiento de un PV asociado a un PVC.
 
 ## Diagrama
 
-![Diagrama](https://raw.githubusercontent.com/zoomtander-lab/k8s-Volumes/master/GCP/ReadWriteOnce/Recycle/assets/diagrama.png)
+![Diagrama](https://raw.githubusercontent.com/zoomtander-lab/k8s-Volumes/master/GCP/ReadWriteOnce/Recycle/caso1/assets/diagrama.png)
 
 **Requisitos**:
 
