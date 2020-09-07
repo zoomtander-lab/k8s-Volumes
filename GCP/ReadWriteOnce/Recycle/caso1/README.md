@@ -2,6 +2,10 @@
 
 Probaremos el comportamiento de un PV asociado a un PVC.
 
+## Diagrama
+
+![Diagrama](https://raw.githubusercontent.com/zoomtander-lab/k8s-Volumes/master/GCP/ReadWriteOnce/Recycle/assets/diagrama.png)
+
 **Requisitos**:
 
 * Crear disco en [Compute Engine](https://console.cloud.google.com/compute/disks) llamado "**dsk-timer**"
@@ -12,6 +16,7 @@ Probaremos el comportamiento de un PV asociado a un PVC.
     kubectl apply -f PersistentVolume.yml
     kubectl apply -f PersistentVolumeClaim.yml
 ```
+
 Creamos el PersistentVolume (pv) y le asociamos un PersistentVolumeClaim (pvc).
 
 ![alt](https://link)
@@ -26,4 +31,11 @@ Creamos el PersistentVolume (pv) y le asociamos un PersistentVolumeClaim (pvc).
 Resultado: Crea un nuevo volumen dinamico. No usa "pv-timer".
 
 
->Ver: [Abreviaturas, siglas y acrónimos](https://github.com/zoomtander-lab/k8s-Volumes/blob/master/ABBREVIATIONS.md)
+## Autores
+
+* Williams Alejandro Gomez Ayala ![Venezuela](https://raw.githubusercontent.com/zoomtander-lab/k8s-Volumes/master/assets/ve.png)(Venezuela)
+* Marcos Abraham Hernandez Bravo ![Chile](https://raw.githubusercontent.com/zoomtander-lab/k8s-Volumes/master/assets/cl.png)(Chile)
+
+## Licencia
+
+MIT License, Copyright (c) 2020 Zoomtander-Lab

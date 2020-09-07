@@ -5,7 +5,7 @@
 Termino | Nombre Completo | Definicion
 --------|-----------------|------------
 AWS | Amazon Web Services | Servicio Cloud
-DO | Digital Ocen | Servicio Cloud
+DO | Digital Ocean | Servicio Cloud
 GCP | Google Cloud Platform | Servicio Cloud
 
 ## Aplicaciones
