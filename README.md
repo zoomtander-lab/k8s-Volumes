@@ -122,8 +122,8 @@ El ícono de laboratorio simbolico de nuestra organización es creación de [Fre
 
 ## Autores
 
-* Williams Alejandro Gomez Ayala ![Venezuela](https://raw.githubusercontent.com/zoomtander-lab/k8s-Volumes/master/assets/ve.png)
-* Marcos Abraham Hernandez Bravo ![Chile](https://raw.githubusercontent.com/zoomtander-lab/k8s-Volumes/master/assets/cl.png)
+* Williams Alejandro Gomez Ayala ![Venezuela](https://raw.githubusercontent.com/zoomtander-lab/k8s-Volumes/master/assets/ve.png)(Venezuela)
+* Marcos Abraham Hernandez Bravo ![Chile](https://raw.githubusercontent.com/zoomtander-lab/k8s-Volumes/master/assets/cl.png)(Chile)
 
 ## Licencia
 
